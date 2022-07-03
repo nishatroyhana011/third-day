@@ -2,3 +2,11 @@
 {
     color: blue;
 }
+ul li{
+    height: 25px;
+    width: 100px;
+    margin: 10px;
+
+    color: aquamarine;
+    background-color: rgb(128, 6, 128);
+}
