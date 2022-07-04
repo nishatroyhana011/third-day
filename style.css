@@ -23,25 +23,27 @@ p{
 }
 .header-section{
     display: flex;
-    margin-bottom: 150px;
-    background-image: url(/images/top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
 }
 .half-width{
     width: 50%;
     height: 500px;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
     vertical-align: middle;
 }
 .name{
     color: rgb(239, 11, 83);
 }
 .myimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 100%;
     width: auto;
     border-radius: 50%;
+    
 }
 .button{
     display: inline-block;
@@ -52,4 +54,10 @@ p{
     background-image: linear-gradient(rgb(239, 11, 83), rgb(202, 77, 141));
     text-decoration: none;
     border-radius: 10px;
+}
+.dev-section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
